@@ -1,7 +1,7 @@
 docker.jekyllinstance
 =====================
 
-> **Read this [blog post](http://blog.codewerft.net/2014/07/14/continuous-web-content-deployment-with-docker/) to learn more about this container!**
+> **Also read this [blog post](http://blog.codewerft.net/2014/07/14/continuous-web-content-deployment-with-docker/) to learn more!**
 
 docker.jekyllinstance is a simple Docker container for continuous deployment of git-hosted Jekyll blogs. It automatically pulls, builds and publishes any updates that you push to your blog's Git repository. 
 
