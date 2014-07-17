@@ -37,9 +37,10 @@ RUN jekyll -v
 #RUN ruby -v
 
 # ------------------------------------------------------------
-# install git puller script
+# install git poller script
 #
 RUN wget https://gist.githubusercontent.com/oweidner/6f173a9347f3b298dd0d/raw/50789620672f1822b374a6becadd206bc4502a16/gitpoller.sh
+RUN chmod +x /gitpoller.sh
 
 # ------------------------------------------------------------
 # Install supervisor
